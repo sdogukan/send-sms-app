@@ -20,7 +20,9 @@ Before running the script, make sure you have the following:
 
 ## Usage
 
-1. Open the .env file and add the following environment variables, replacing the placeholders with your actual Twilio account credentials and phone numbers:
+1. Create a new file named .env in the project's root directory.
+
+2. Open the .env file and add the following environment variables, replacing the placeholders with your actual Twilio account credentials and phone numbers:
 
     ```bash
     TWILIO_ACCOUNT_SID=your_twilio_account_sid
@@ -28,19 +30,13 @@ Before running the script, make sure you have the following:
     SENDER_PHONE_NUMBER=your_sender_phone_number
     RECIPIENT_PHONE_NUMBER=your_recipient_phone_number
     
-2. In the package.json file, make sure to add the "type": "module" property:
+3. In the package.json file, make sure to add the "type": "module" property:
     ```json
     "type": "module"
     ````
 
-3. Run the script using the following command in your terminal:
+4. Run the script using the following command in your terminal:
 
     ```bash
     npm start
     ```
-
-    
-
-
-
-
