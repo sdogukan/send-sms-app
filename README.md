@@ -1,4 +1,4 @@
-# Sending Verification Code SMS with Twilio
+# Sending Random Code SMS with Twilio
 
 This is a simple Node.js script that uses the Twilio API to generate a random code and send it via SMS.
 
