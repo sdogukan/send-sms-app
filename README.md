@@ -36,7 +36,7 @@ Before running the script, make sure you have the following:
 3. Run the script using the following command in your terminal:
 
     ```bash
-    node app.js
+    npm start
     ```
 
     
