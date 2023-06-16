@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project demonstrates sending SMS using Twilio API with Node.js. Twilio is a cloud-based communication platform that allows developers to integrate SMS, voice calls, and other communication functions.",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
